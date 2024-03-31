@@ -1,0 +1,6 @@
+{
+  "parent": "mcgrapplinghookmod:item/grappling_hook",
+  "textures": {
+    "layer0": "mcgrapplinghookmod:item/grappling_hook_pulling_1"
+  }
+}

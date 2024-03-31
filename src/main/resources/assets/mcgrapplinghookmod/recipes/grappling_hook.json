@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  I",
+    " L ",
+    "L  "
+  ],
+  "key": {
+    "W": {
+      "tag": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:lead"
+    }
+  },
+  "result": {
+    "item": "mcgrapplinghookmod:grappling_hook",
+    "count": 1
+  }
+}

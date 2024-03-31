@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "mcgrapplinghookmod",
+  "version": "${version}",
+  "name": "MCGrapplingHookMod",
+  "description": "Adds a grappling hook.",
+  "authors": [
+    "Ivo te Sligte"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/mcgrapplinghookmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.ivotesligte.mcgrapplinghookmod.MCGrapplingHookMod"
+    ],
+    "client": [
+      "com.github.ivotesligte.mcgrapplinghookmod.MCGrapplingHookModClient"
+    ]
+  },
+  "mixins": [
+    "mcgrapplinghookmod.mixins.json",
+    {
+      "config": "mcgrapplinghookmod.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "minecraft": "~1.20.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
